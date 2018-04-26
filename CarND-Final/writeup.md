@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 [image2]: ./output_images/car.png
 [image3]: ./output_images/hog_YCrCb.png
 [image4]: ./output_images/sliding_window.jpg
-[image5]: ./output_imagessliding_window.png
+[image5]: ./output_images/sliding_window.png
 [image6]: ./output_images/heatmap.png
 [image7]: ./output_images/heatmap.png
 [video1]: ./project_video.mp4
@@ -37,6 +37,7 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 Here is an example using the `YCrCb` color space and HOG parameters of `orientations=8`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
 
 ![alt text][image3]
+
 I tried various combinations of parameters and trained SVM classifer using only HOG features.
 And the best result is using 2 cells per block, and YUV, YCrCb are the best color space to train the classifier.
 
