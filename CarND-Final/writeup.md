@@ -26,9 +26,12 @@ The goals / steps of this project are the following:
 
 The code for this step is contained in the first code cell of the IPython notebook(Train Classifier)
 
-I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
+I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` :
 
 ![alt text][image1]
+
+and `non-vehicle` classes:
+
 ![alt text][image2]
 
 #### 2. Explain how you settled on your final choice of HOG parameters.
